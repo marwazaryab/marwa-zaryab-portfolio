@@ -1,6 +1,11 @@
 import React from 'react';
 import marwa from '../assets/marwa.jpg';
 import { FaArrowRight } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
+import { FaSquareGithub } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
+
+
 
 const Home = () => {
   return (
@@ -10,11 +15,17 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className='flex flex-col justify-center h-full md:w-1/2'>
+
+          <h1 className='text-2xl'>
+            hey, i'm
+
+          </h1>
+
           <h2 className='text-4xl sm:text-7xl font-bold'>
-            Hey, I am Marwa!
+            Marwa Zaryab
           </h2>
           <p className='text-black py-4 m-w-med'>
-            Systems Design Engineering Student at University of Waterloo!
+            a Systems Design Engineering Student at University of Waterloo
           </p>
           <div>
             <button className='group flex items-center bg-green-950 text-white px-6 py-3 my-2 w-fit 
@@ -39,6 +50,25 @@ const Home = () => {
 
       <footer className=" bg-green-950 text-white text-center py-4">
       <p>© 2024 Marwa Zaryab</p>
+      <div className='justify-center flex col'>
+        <a href = "https://www.linkedin.com/in/marwazaryab/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <FaLinkedin size={28}/>
+        </a>
+        <a href = "https://github.com/marwazaryab" target="_blank" rel="noopener noreferrer" aria-label="Github">
+        <FaSquareGithub size={28}/>
+
+        </a>
+
+        <a href = "mailto:mzzaryab@uwaterloo.ca.ca" target="_blank" aria-label="Email">
+
+        <MdEmail size={28}/>
+
+        </a>
+
+      </div>
+
+
+
     </footer>
 
     </div>
