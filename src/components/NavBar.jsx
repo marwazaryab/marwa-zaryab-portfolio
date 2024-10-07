@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
 
@@ -8,7 +9,8 @@ const NavBar = () => {
     const links = [
         {
             id: 1,
-            link: 'Home'
+            link: 'Home',
+            path: '/'
         },
         {
             id: 2,
@@ -32,11 +34,14 @@ const NavBar = () => {
 
             <ul className="hidden md:flex">
 
-                {links.map(({ id, link }) => (
+                {links.map(({ id, link, path }) => (
                     <li key={id}
                         className="px-4 cursor-pointer captialize font-medium
                      text-white hover:scale-105 duration-200">
+                        <Link to ={path}>
                         {link}
+                        
+                        </Link>
                     </li>
                 ))}
             </ul>
@@ -51,10 +56,13 @@ const NavBar = () => {
             {nav && (
                 <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-white to-green-100'>
 
-                    {links.map(({ id, link }) => (
+                    {links.map(({ id, link, path }) => (
                         <li key={id}
                             className="px-4 cursor-pointer capitalize py-6 text-4xl text-black">
-                            {link}
+                            <Link to ={path}>
+                        {link}
+                        
+                        </Link>
                         </li>
                     ))}
 
