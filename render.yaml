@@ -5,4 +5,4 @@ services:
     autoDeploy: true
     buildCommand: null
     startCommand: null
-    publishDir: ./public
+    publishDir: public
