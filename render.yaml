@@ -1,0 +1,8 @@
+services:
+  - type: static
+    name: marwa-zaryab
+    env: static
+    autoDeploy: true
+    buildCommand: null
+    startCommand: null
+    publishDir: ./public
