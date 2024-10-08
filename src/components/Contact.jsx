@@ -18,7 +18,7 @@ const Contact = () => {
 
             <div className='flex flex-col space-y-10'>
                 <div className='flex items-center space-x-6'>
-                    <a href="mailto:mzzaryab@uwaterloo.ca" target="_blank" aria-label="Email">
+                    <a href="mailto:mzzaryab@uwaterloo.ca" target="_blank" aria-label="Email" rel="noreferrer">
 
                         <MdEmail size={62} className="hover:text-red-500 transition-colors duration-200" />
                     </a>
@@ -26,7 +26,7 @@ const Contact = () => {
                 </div>
                 <div className='flex items-center space-x-6'>
 
-                    <a href="https://www.linkedin.com/in/marwazaryab/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn ">
+                    <a href="https://www.linkedin.com/in/marwazaryab/" target="_blank" rel="noreferrer" aria-label="LinkedIn ">
                         <FaLinkedin size={62} className='hover:text-blue-700 transition-colors duration-200' />
                     </a>
 
@@ -36,7 +36,7 @@ const Contact = () => {
                 <div className='flex items-center space-x-6'>
 
 
-                    <a href="https://github.com/marwazaryab" target="_blank" rel="noopener noreferrer" aria-label="Github">
+                    <a href="https://github.com/marwazaryab" target="_blank" rrel="noreferrer" aria-label="Github">
                         <FaSquareGithub size={62} className='hover:text-gray-700 transition-colors duration-200' />
 
                     </a>
