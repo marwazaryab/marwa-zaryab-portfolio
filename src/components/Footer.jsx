@@ -15,7 +15,7 @@ const Footer = () => {
           <a href="https://www.linkedin.com/in/marwazaryab/" target="_blank" rel="noreferrer" aria-label="LinkedIn ">
             <FaLinkedin size={30} className='hover:text-blue-700 transition-colors duration-200' />
           </a>
-          <a href="https://github.com/marwazaryab" target="_blank" rrel="noreferrer" aria-label="Github">
+          <a href="https://github.com/marwazaryab" target="_blank" rel="noreferrer" aria-label="Github">
             <FaSquareGithub size={30} className='hover:text-gray-700 transition-colors duration-200' />
 
           </a>

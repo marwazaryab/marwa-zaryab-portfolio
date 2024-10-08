@@ -36,7 +36,7 @@ const Contact = () => {
                 <div className='flex items-center space-x-6'>
 
 
-                    <a href="https://github.com/marwazaryab" target="_blank" rrel="noreferrer" aria-label="Github">
+                    <a href="https://github.com/marwazaryab" target="_blank" rel="noreferrer" aria-label="Github">
                         <FaSquareGithub size={62} className='hover:text-gray-700 transition-colors duration-200' />
 
                     </a>
